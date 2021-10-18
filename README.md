@@ -33,7 +33,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 72%
 * Recall Low Risk: 67%
 
-![SMOTE]((https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smote.png)
+![SMOTE](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smote.png)
 
 ### Cluster Centroid Undersampling
 
