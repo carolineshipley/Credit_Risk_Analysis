@@ -23,7 +23,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 66%
 * Recall Low Risk: 68%
 
-![oversampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Naive.png)
+![oversampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Naive.PNG)
 
 ### SMOTE Oversampling
 
