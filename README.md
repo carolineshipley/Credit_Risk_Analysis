@@ -33,7 +33,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 72%
 * Recall Low Risk: 67%
 
-![SMOTE](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smote.png)
+![SMOTE](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smote.PNG)
 
 ### Cluster Centroid Undersampling
 
@@ -43,7 +43,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 64%
 * Recall Low Risk: 41%
 
-![undersampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Cluster.png)
+![undersampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Cluster.PNG)
 
 ### SMOTEENN Sampling
 
@@ -53,7 +53,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 76%
 * Recall Low Risk: 60%
 
-![SMOTEENN](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smoteen.png)
+![SMOTEENN](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smoteen.PNG)
 
 ### Balanced Random Forest Classifying
 
@@ -63,7 +63,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 30%
 * Recall Low Risk: 100%
 
-![random_forest](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Forest.png)
+![random_forest](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Forest.PNG)
 
 ### Easy Ensemble Classifying
 
@@ -73,7 +73,7 @@ The analysis results of each model is described below.
 * Recall High Risk: 91%
 * Recall Low Risk: 94%
 
-![easy_ensemble](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Easy.png)
+![easy_ensemble](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Easy.PNG)
 
 ## Summary
 
