@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis was to create a supervised machine learning model that could accurately predict credit risk. In order to complete this task, I used 6 different methods, which are:
+The purpose of this project is to create a supervised machine learning model to predict credit risk. For this project these 6 different models are used:
 
 1. Naive Random Oversampling
 2. SMOTE Oversampling
@@ -11,49 +11,49 @@ The purpose of this analysis was to create a supervised machine learning model t
 5. Balanced Random Forest Classifying
 6. Easy Ensemble Classifying
 
-Through each of these methods, I split my data into training and testing datasets, and compiled accuracy scores, confusion matries, and classification reports as my results.
-
 ## Results
+
+The analysis results of each model is described below.
 
 ### Naive Random Oversampling
 
-* Accuracy Score: 67.4%
-* Precision High Risk: 1%
-* Precision Low Risk: 100%
-* Recall High Risk: 72%
-* Recall Low Risk: 63%
-
-![oversampling](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/oversampling.png)
-
-### SMOTE Oversampling
-
-* Accuracy Score: 66.2%
+* Accuracy Score: 67%
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
 * Recall High Risk: 66%
-* Recall Low Risk: 66%
+* Recall Low Risk: 68%
 
-![SMOTE](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/SMOTE.png)
+![oversampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Naive.png)
+
+### SMOTE Oversampling
+
+* Accuracy Score: 69.3%
+* Precision High Risk: 1%
+* Precision Low Risk: 100%
+* Recall High Risk: 72%
+* Recall Low Risk: 67%
+
+![SMOTE]((https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smote.png)
 
 ### Cluster Centroid Undersampling
 
-* Accuracy Score: 51.3%
+* Accuracy Score: 52.2%
 * Precision High Risk: 0%
 * Precision Low Risk: 100%
-* Recall High Risk: 61%
-* Recall Low Risk: 42%
+* Recall High Risk: 64%
+* Recall Low Risk: 41%
 
-![undersampling](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/undersampling.png)
+![undersampling](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Cluster.png)
 
 ### SMOTEENN Sampling
 
-* Accuracy Score: 68.1%
+* Accuracy Score: 68%
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
 * Recall High Risk: 76%
 * Recall Low Risk: 60%
 
-![SMOTEENN](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/SMOTEENN.png)
+![SMOTEENN](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Smoteen.png)
 
 ### Balanced Random Forest Classifying
 
@@ -63,7 +63,7 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall High Risk: 30%
 * Recall Low Risk: 100%
 
-![random_forest](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/random_forest.png)
+![random_forest](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Forest.png)
 
 ### Easy Ensemble Classifying
 
@@ -73,25 +73,18 @@ Through each of these methods, I split my data into training and testing dataset
 * Recall High Risk: 91%
 * Recall Low Risk: 94%
 
-![easy_ensemble](https://github.com/Wall-E28/credit_risk_analysis/blob/main/visualizations/easy_ensemble.png)
+![easy_ensemble](https://github.com/carolineshipley/Credit_Risk_Analysis/blob/main/resources/Easy.png)
 
 ## Summary
 
-This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk. Looking through the different models, the ones that scored the highest were:
+To be able to detect if a loan is high risk or not, the model needs to allow the least amount of high risk loans pass through undetected. The statistic used for this is the recall rate for high risk. 
 
-1. Easy Ensemble Classifying (91%)
-2. SMOTEENN Sampling (76%)
-3. Naive Random Oversampling (72%)
+Analyzing the results of the different models, the ones that scored the highest were Easy Ensemble Classifying (91%), SMOTEENN Sampling (76%) and SMOTE Oversampling (72%).
 
-While this is the most important statistic that is pulled from this analysis, another important statistic is recall rate for low risk as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
+Another important statistic is recall rate for low risk because it shows how many low risk loans are flagged as high risk. 
 
-1. Balanced Random Forest Classifying (100%)
-2. Easy Ensemble Classifying (94%)
+Analyzing the results of the different models, the ones that scored the highest were Balanced Random Forest Classifying (100%) and Easy Ensemble Classifying (94%).
 
-After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
+Analyzing the accurary score to see the models overall performance, we can see that the models with the highest accuracy scores were Easy Ensemble Classify (92.3%), SMOTE Oversampling (69.3%) and SMOTEENN Sampling (68%).
 
-1. Easy Ensemble Classify (92.3%)
-2. SMOTEENN Sampling (68.1%)
-3. Balanced Random Forest Classifying (64.8%)
-
-After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
+After analyzing these three main statistics, the model that recommended to predict high risk loans is the Easy Ensemble Classifying model.
